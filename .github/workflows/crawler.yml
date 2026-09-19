@@ -52,7 +52,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 15
     env:
-        SILICONFLOW_API_KEY: ${{ secrets.SILICONFLOW_API_KEY}}
+        AI_API_KEY: ${{ secrets.AI_API_KEY }}
     steps:
       - name: Checkout repository
         uses: actions/checkout@v6
