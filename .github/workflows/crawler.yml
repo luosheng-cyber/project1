@@ -53,6 +53,7 @@ jobs:
     timeout-minutes: 15
     env:
         AI_API_KEY: ${{ secrets.AI_API_KEY }}
+        AI_PROVIDER: ${{ secrets.AI_PROVIDER }}
     steps:
       - name: Checkout repository
         uses: actions/checkout@v6
