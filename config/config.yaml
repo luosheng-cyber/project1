@@ -99,6 +99,22 @@ platforms:
     - id: "zhihu"
       name: "知乎"
       expected_domain: "zhihu.com"
+-     id: "hupu"
+      name: "虎扑"
+      expected_domain: "hupu.com"
+-     id: "ithome"
+      name: "IT之家"
+      expected_domain: "ithome.com"
+-     id: "juejin"
+      name: "掘金"
+      expected_domain: "juejin.cn"
+-     id: "github"
+      name: "GitHub"
+      expected_domain: "github.com"
+-     id: "douban"
+      name: "豆瓣"
+      expected_domain: "douban.com"
+
 
 
 
